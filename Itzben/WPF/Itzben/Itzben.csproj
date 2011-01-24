@@ -53,8 +53,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BindVisualStateBehavior.cs" />
+    <Compile Include="CollapsedWhenNullConverter.cs" />
     <Compile Include="EnumEqualsConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VisibleWhenFalseConverter.cs" />
+    <Compile Include="VisibleWhenTrueConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="Styles.xaml">
