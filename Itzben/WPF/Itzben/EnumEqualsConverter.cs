@@ -13,7 +13,7 @@ namespace Itzben
 			if (targetType != typeof(bool) && targetType != typeof(bool?))
 				throw new InvalidOperationException("EnumEqualsConverter can only be used with boolean properties.");
 
-			return value.ToString() == parameter.ToString();
+			return ObjectToString(value) == ObjectToString(parameter);
 		}
 
 		public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
@@ -22,6 +22,11 @@ namespace Itzben
 				return Binding.DoNothing;
 			else
 				return Enum.Parse(targetType, parameter.ToString());
+		}
+
+		private static string ObjectToString(object obj)
+		{
+			return obj == null ? string.Empty : obj.ToString();
 		}
 	}
 }

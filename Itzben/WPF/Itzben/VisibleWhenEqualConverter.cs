@@ -12,12 +12,17 @@ namespace Itzben
 			if (targetType != typeof(Visibility) && targetType != typeof(Visibility?))
 				throw new InvalidOperationException("VisibleWhenEqualConverter can only be used with Visibility properties.");
 
-			return value.ToString() == parameter.ToString() ? Visibility.Visible : Visibility.Collapsed;
+			return ObjectToString(value) == ObjectToString(parameter) ? Visibility.Visible : Visibility.Collapsed;
 		}
 
 		public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
 		{
 			throw new NotImplementedException();
+		}
+
+		private static string ObjectToString(object obj)
+		{
+			return obj == null ? string.Empty : obj.ToString();
 		}
 	}
 }
