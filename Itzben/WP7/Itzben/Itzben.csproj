@@ -57,6 +57,7 @@
     <Compile Include="CollapsedWhenNullConverter.cs" />
     <Compile Include="EnumEqualsConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VisibleWhenEqualConverter.cs" />
     <Compile Include="VisibleWhenFalseConverter.cs" />
     <Compile Include="VisibleWhenTrueConverter.cs" />
   </ItemGroup>
