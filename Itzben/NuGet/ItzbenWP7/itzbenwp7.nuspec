@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<package> 
+  <metadata> 
+    <id>itzbenwp7</id> 
+    <version>1.0.0</version> 
+    <authors>Michael L Perry</authors> 
+    <owners>Michael L Perry</owners>
+    <description>A collection of universally useful XAML value converters, behaviors, and styles.</description> 
+    <projectUrl>http://itzben.codeplex.com/</projectUrl>
+    <licenseUrl>http://itzben.codeplex.com/license</licenseUrl>
+    <tags>xaml blend value-converter behavior style wpf silverlight wp7</tags>
+    <language>en-US</language> 
+  </metadata> 
+</package>
