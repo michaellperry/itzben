@@ -20,11 +20,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itzben", "Itzben", "{E82975
 		NuGet\Itzben\itzben.nuspec = NuGet\Itzben\itzben.nuspec
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ItzbenWP7", "ItzbenWP7", "{5DD061C1-191F-494C-85FB-2F9C6AA0F479}"
-	ProjectSection(SolutionItems) = preProject
-		NuGet\ItzbenWP7\itzbenwp7.nuspec = NuGet\ItzbenWP7\itzbenwp7.nuspec
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
 		SccNumberOfProjects = 4
@@ -92,6 +87,5 @@ Global
 		{CC34FABB-716F-412D-99B5-FF88665839B2} = {04C80311-6C45-467D-9FAC-405450D2D9CA}
 		{1D888FF7-923D-4385-9CFE-27ED750F14E4} = {2DD1A184-428F-4014-9278-541CAB2DBBF8}
 		{E8297582-300F-4B31-BC8B-37131EBE2B05} = {3D430D06-90D6-4254-9A2F-507C3A11E86E}
-		{5DD061C1-191F-494C-85FB-2F9C6AA0F479} = {3D430D06-90D6-4254-9A2F-507C3A11E86E}
 	EndGlobalSection
 EndGlobal
