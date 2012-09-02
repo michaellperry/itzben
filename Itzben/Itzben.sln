@@ -20,9 +20,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itzben", "Itzben", "{E82975
 		NuGet\Itzben\itzben.nuspec = NuGet\Itzben\itzben.nuspec
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WP71", "WP71", "{C1B058E0-D811-4CAE-A50B-F97F6E6A6238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itzben", "WP71\Itzben\Itzben.csproj", "{FDCED304-E6E3-45E1-9C0D-352CD04D8D38}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
+		SccNumberOfProjects = 5
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs08
 		SccLocalPath0 = .
@@ -38,6 +42,10 @@ Global
 		SccProjectTopLevelParentUniqueName3 = Itzben.sln
 		SccProjectName3 = WP7/Itzben
 		SccLocalPath3 = WP7\\Itzben
+		SccProjectUniqueName4 = WP71\\Itzben\\Itzben.csproj
+		SccProjectTopLevelParentUniqueName4 = Itzben.sln
+		SccProjectName4 = WP71/Itzben
+		SccLocalPath4 = WP71\\Itzben
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +86,16 @@ Global
 		{1D888FF7-923D-4385-9CFE-27ED750F14E4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{1D888FF7-923D-4385-9CFE-27ED750F14E4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{1D888FF7-923D-4385-9CFE-27ED750F14E4}.Release|x86.ActiveCfg = Release|Any CPU
+		{FDCED304-E6E3-45E1-9C0D-352CD04D8D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCED304-E6E3-45E1-9C0D-352CD04D8D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCED304-E6E3-45E1-9C0D-352CD04D8D38}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FDCED304-E6E3-45E1-9C0D-352CD04D8D38}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FDCED304-E6E3-45E1-9C0D-352CD04D8D38}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FDCED304-E6E3-45E1-9C0D-352CD04D8D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCED304-E6E3-45E1-9C0D-352CD04D8D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCED304-E6E3-45E1-9C0D-352CD04D8D38}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FDCED304-E6E3-45E1-9C0D-352CD04D8D38}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FDCED304-E6E3-45E1-9C0D-352CD04D8D38}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,5 +105,6 @@ Global
 		{CC34FABB-716F-412D-99B5-FF88665839B2} = {04C80311-6C45-467D-9FAC-405450D2D9CA}
 		{1D888FF7-923D-4385-9CFE-27ED750F14E4} = {2DD1A184-428F-4014-9278-541CAB2DBBF8}
 		{E8297582-300F-4B31-BC8B-37131EBE2B05} = {3D430D06-90D6-4254-9A2F-507C3A11E86E}
+		{FDCED304-E6E3-45E1-9C0D-352CD04D8D38} = {C1B058E0-D811-4CAE-A50B-F97F6E6A6238}
 	EndGlobalSection
 EndGlobal
