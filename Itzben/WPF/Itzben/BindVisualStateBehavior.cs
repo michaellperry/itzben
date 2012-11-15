@@ -33,6 +33,12 @@ namespace Itzben
 			}
 		}
 
+        protected override void OnAttached()
+        {
+            UpdateVisualState(StateName);
+            base.OnAttached();
+        }
+
 		private static void VisualStatePropertyChanged(DependencyObject obj, DependencyPropertyChangedEventArgs args)
 		{
 			((BindVisualStateBehavior)obj).UpdateVisualState((string)args.NewValue);
