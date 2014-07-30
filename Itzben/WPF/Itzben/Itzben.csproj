@@ -57,6 +57,7 @@
     <Compile Include="CollapsedWhenNullConverter.cs" />
     <Compile Include="ColorToBrushConverter.cs" />
     <Compile Include="EnumEqualsConverter.cs" />
+    <Compile Include="PersistentSelectionBehavior.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleTypeConverter.cs" />
     <Compile Include="StringFormatConverter.cs" />
