@@ -1,5 +1,5 @@
 packages/
-NuGet/Core/lib/
+Itzben/NuGet/Itzben/lib/
 
 #ignore thumbnails created by windows
 Thumbs.db
