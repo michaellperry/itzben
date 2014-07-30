@@ -1,5 +1,6 @@
 packages/
 Itzben/NuGet/Itzben/lib/
+*.nupkg
 
 #ignore thumbnails created by windows
 Thumbs.db
