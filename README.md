@@ -7,7 +7,7 @@ install-package itzben
 ```
 
 | Name                        | Description                                                           | WPF | SL4 | WP7 |
-|-----------------------------|-----------------------------------------------------------------------|-----|-----|-----|
+|-----------------------------|-----------------------------------------------------------------------|:---:|:---:|:---:|
 | BindVisualStateBehavior     | Data bind an enumeration or string-valued property to a visual state. | X   | X   |     |
 | BitmapImageConverter        | Convert a string or Uri to a BitmapImage.                             | X   | X   | X   |
 | CollapsedWhenNullConverter  | Convert an object reference to Visibility. Useful for details pane.   | X   | X   | X   |
